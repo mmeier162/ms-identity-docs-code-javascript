@@ -13,8 +13,8 @@ import { LogLevel } from "@azure/msal-browser";
 
 export const msalConfig = {
     auth: {
-        clientId: "31f507ec-11a0-4802-b8bc-16529f49072c",
-        authority: "https://login.microsoftonline.com/3f9fb3b6-b0f2-4170-81af-22a01dc61053",
+        clientId: "9cf26e7a-dd58-40d1-aed4-0526c8d26175",
+        authority: "https://login.microsoftonline.com/9a56a6e4-cefd-4ec7-aefe-ad699f44dae0",
         redirectUri: "http://localhost:3000",
     },
     cache: {
