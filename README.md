@@ -1,14 +1,45 @@
-# Microsoft identity platform product documentation backing code
+---
+page_type: sample
+languages:
+- javascript
+products:
+- azure
+- ms-graph
+- microsoft-identity-platform
+name: React single-page app (SPA) that signs in user
+url-fragment: msal-react-single-page-app
+description: This minimal React application demonstrates usage of the Microsoft Authentication Library for React (MSAL React) to sign in Microsoft Entra users (authentication), call a protected web API (authorization), and sign out users.
+---
 
-This repo contains code used to directly support the product documentation for the [Microsoft identity platform](https://docs.microsoft.com/azure/active-directory/develop/). It is a mono-repo that contains all of the referenced tutorials relating to JavaScript-based implementations using the [Microsoft Autentication Library for JavaScript](https://github.com/AzureAD/microsoft-authentication-library-for-js).
 
-## Content
+# React single-page app (SPA) | Sign in users, call protected API | Microsoft identity platform
 
-## Resources
+This minimal React application demonstrates usage of the Microsoft Authentication Library for React (MSAL React) to:
 
-- [Microsoft identity platform product documentation](https://docs.microsoft.com/azure/active-directory/develop/)
-- [Microsoft Authentication Library (MSAL) documentation](https://docs.microsoft.com/azure/active-directory/develop/msal-overview)
-- [Microsoft Authentication Library for JavaScript (MSAL.js) 2.0 for Browser-Based Single-Page Applications](https://github.com/AzureAD/microsoft-authentication-library-for-js/tree/dev/lib/msal-browser)
-- [Microsoft Authentication Library for Node (msal-node)](https://github.com/AzureAD/microsoft-authentication-library-for-js/tree/dev/lib/msal-node)
-- [Microsoft Authentication Library for Angular](https://github.com/AzureAD/microsoft-authentication-library-for-js/tree/dev/lib/msal-angular)
-- [Microsoft Authentication Library for React (msal-react)](https://github.com/AzureAD/microsoft-authentication-library-for-js/tree/dev/lib/msal-react)
+- Sign in Microsoft Entra users (authentication)
+- Call a protected web API (authorization)
+- Sign out users
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
